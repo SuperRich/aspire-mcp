@@ -1,0 +1,16 @@
+{
+  "name": "aspire-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsc && node dist/main.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
